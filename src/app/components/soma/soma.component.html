@@ -1,0 +1,15 @@
+<div class="soma-container">
+  <h2>Insira Dois Números</h2>
+
+  <label class="label" for="num1">Primeiro número:</label>
+  <input class="input-field" type="text" [(ngModel)]="num1">
+
+  <label class="label" for="num2">Segundo número:</label>
+  <input class="input-field" type="text" [(ngModel)]="num2">
+  
+  <label class="label">Resultado:</label>
+  <input class="input-field" type="text" [(ngModel)]="resultado" disabled="">
+
+  <button class="btn" (click)="calcularSoma()">Imprimir Números</button>
+
+</div>

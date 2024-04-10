@@ -1,0 +1,12 @@
+<div class="contador-container">
+  <h2>Insira Uma Palavra/Frase</h2>
+
+  <label class="label" for="frase">Digite a Frase:</label>
+  <input class="input-field" type="text" [(ngModel)]="frase">
+  
+  <label class="label" for="quantidade">Quantidade:</label>
+  <input class="input-field" type="text" [(ngModel)]="quantidade" disabled>
+
+  <button class="btn" (click)="contarLetras()">Contar Letras</button>
+
+</div>
