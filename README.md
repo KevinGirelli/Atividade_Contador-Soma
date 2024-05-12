@@ -1,4 +1,4 @@
-# Atividade de Contador de Letras e Soma de Números em Angular 17
+# Contador de Letras e Soma de Números em Angular 17
 
 Este é um projeto simples criado em Angular 17 para demonstrar duas funcionalidades básicas:
 - Contagem de letras em uma frase.
@@ -25,8 +25,8 @@ Para executar este projeto localmente, é necessário ter o Node.js e o Angular 
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/KevinGirelli/Atividade_Contador-Soma.git
-   cd Atividade_Contador-Soma
+   git clone https://github.com/KevinGirelli/Contador-Soma.git
+   cd Contador-Soma
 
 2. **Instale as Dependências:**
    ```bash
